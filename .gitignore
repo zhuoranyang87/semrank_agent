@@ -1,0 +1,32 @@
+# API keys and local env
+.env
+
+# Large precomputed binary files (embeddings, model weights)
+CSFCube/*.pt
+CSFCube/*.pkl
+CSFCube/specter2_corpus_with-topic-terms.json
+DORISMAE/
+LitSearch/
+
+# Classifier model weights
+classifier/topic_classifier_specter2.pt
+
+# Task 2 debug outputs
+csfcube_agent_debug.csv
+dorismae_agent_debug.csv
+
+# Handoff docs (local use only)
+CSCE670_Task2_Agentic_Handoff.md
+CSCE670_Task2_Agentic_Handoff.zip
+TASK2_OPUS_HANDOFF.md
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
