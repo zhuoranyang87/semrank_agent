@@ -1,0 +1,17 @@
+diff --git a/.gitignore b/.gitignore
+index cbf391b..6c60c39 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -8,3 +8,12 @@ LitSearch/
+ classifier/topic_classifier_specter2.pt
+ api.txt
+ test.pyCSFCube/specter2_corpus_with-topic-terms.json.phrase-enc-specter.pt
++
++# local task 2 context (do not push)
++.env
++CSCE670_Task2_Agentic_Handoff.md
++CSCE670_Task2_Agentic_Handoff.zip
++
++# local task 2 outputs
++csfcube_agent_debug.csv
++dorimae_agent_debug.csv
