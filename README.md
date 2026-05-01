@@ -115,19 +115,3 @@ delta              +0.0131     +0.0094     +0.0000     +0.0000
 ```
 
 The agentic critique-and-refine pass improved Recall@50 by +1.31 points and Recall@100 by +0.94 points over the weighted baseline. Hit rates were unchanged, meaning the agentic pass improved ranking depth rather than binary coverage.
-
-
-## Limitations
-
-- Only CSFCube is confirmed. DORISMAE has not been validated with the full Task 2 pipeline.
-- The agentic pass is a single critique round. It does not iterate.
-- The critique agent is constrained to select refined concepts from the candidate vocabulary already seen in the first-pass top results. It cannot introduce entirely new vocabulary.
-- Results depend on the TAMU API being available and responding within the timeout.
-
-
-## Future Work
-
-- Run and validate Task 2 on DORISMAE
-- Experiment with more than one critique-refine round
-- Try larger TAMU models for the critique step
-- Ablate the effect of the critique on specific query facets (background vs method vs result)
